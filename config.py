@@ -9,6 +9,7 @@ DISCORD_TOKEN = 'TOKEN'
 SERVER_ID = 
 # Discord channel ID where log messages will be send
 LOG_CHANNEL_ID = 
-# True/False
+# enable/disable the webhook protection feature
 ENABLE_WEBHOOK_PROTECTION = True
+# allow/disallow verified bot webhooks
 ALLOW_VERIFIED_BOT_WEBHOOKS = False
