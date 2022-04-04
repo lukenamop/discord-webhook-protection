@@ -55,6 +55,9 @@ client = DiscordBot()
 # client event triggers when webhooks are updated
 @client.event
 async def on_webhooks_update(channel):
+	if channel.guild.id != config.SERVER_ID:
+		return
+	
 	# check webhook protection status in the server
 	if not config.ENABLE_WEBHOOK_PROTECTION:
 		return
