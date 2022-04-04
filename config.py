@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+# DISCORD credentials
+DISCORD_TOKEN = 'TOKEN'
+
+# BOT variables
+LOG_CHANNEL_ID = 
+ENABLE_WEBHOOK_PROTECTION = True
+ALLOW_VERIFIED_BOT_WEBHOOKS = False
