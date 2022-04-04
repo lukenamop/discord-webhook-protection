@@ -1,2 +1,8 @@
-# discord-webhook-protection
-This is a standalone version of Server Supervisor's Webhook Protection feature.
+# Webhook Protection
+This is a standalone version of [Server Supervisor](https://discord-security.gitbook.io/server-supervisor/)'s Webhook Protection feature.
+
+# Installation
+1. This bot uses the Pycord library (https://github.com/Pycord-Development/pycord) to communicate with the Discord API. Follow Pycord's instructions for installation on your system.
+2. Download this repository to your system, update the `DISCORD_TOKEN` and `LOG_CHANNEL_ID` variables in `config.py`, and use `python3 discord_bot.py` to start the bot.
+
+If you need help, feel free to reach out at https://twitter.com/lukenamop.
