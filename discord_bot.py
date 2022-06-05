@@ -24,7 +24,6 @@ class DiscordBot(commands.Bot):
 			case_insensitive=True,
 			max_messages=None,
 			intents=client_intents,
-			member_cache_flags=discord.MemberCacheFlags(voice=False),
 			chunk_guilds_at_startup=False
 		)
 		# remove default help command
